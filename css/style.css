@@ -369,7 +369,7 @@ header ul li a {
 	gap: 10%;
 	align-items: center;
 	width: 80%;
-	height: 100vh;
+	height: 200vh;
 	margin-top: 200px;
 	margin-bottom: 700px;
 }
@@ -436,7 +436,7 @@ header ul li a {
 .project-info .button {
 	display: flex;
 	align-items: center;
-	gap: 8px;
+	gap: 12px;
 }
 
 .project-info a {
@@ -499,6 +499,7 @@ header ul li a {
 
 /* Skills */
 .skills-section {
+	margin-top: 40vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -946,6 +947,7 @@ footer h1 {
 
 	.my-projects {
 		margin-bottom: 300px;
+		/* height: 240vh; */
 	}
 
 	.project-vidbox video {
@@ -968,6 +970,10 @@ footer h1 {
 		text-wrap: wrap;
 		max-width: 200px;
 		min-width: 0;
+	}
+
+	.skills-section {
+		margin-top: 100vh;
 	}
 
 	footer {
@@ -1019,6 +1025,11 @@ footer h1 {
 		margin-bottom: -50px;
 	}
 
+	.hero-vid-box video {
+		height: 380px;
+		margin-left: -25%;
+	}
+
 	.scroll-down {
 		bottom: 5%;
 	}
@@ -1038,9 +1049,15 @@ footer h1 {
 		right: 5%;
 	}
 
-	.card h1 .up {
-		margin-bottom : 10px;
+	.info-cards .card h1 .up{
+		font-size: 16px;
+  top: -60%;
 	}
+
+	.info-cards .card p {
+		font-size: 12px;
+	}
+
 	.card .profile {
 		width: 100px;
 		height: 100px;
@@ -1057,7 +1074,8 @@ footer h1 {
 	
 
 	.my-projects {
-		margin-bottom: 600px;
+		/* margin-bottom: 600px; */
+		height: 200vh;
 	}
 
 	.project-card {
@@ -1093,6 +1111,10 @@ footer h1 {
 		left: 13%;
 	}
  
+	.skills-section {
+ margin-top: 175vh;
+	}
+
 	.skills-section .section-title {
 		left: -15%;
 	}
@@ -1103,7 +1125,7 @@ footer h1 {
 	}
 
 	.slider {
-		margin-top: 40px;
+	 margin-bottom: -60px;
 		bottom: 0;
 	}
 
@@ -1123,11 +1145,11 @@ footer h1 {
 	}
 
 	.social-box {
-		margin-left: -30px;
+		margin-left: -24px;
 	}
 
 	.social-icons {
-		left: 40%;
+		left: 50%;
 	}
 
 	.contact-box {
@@ -1150,5 +1172,14 @@ footer h1 {
 
 	.menu-icon {
 		display: inline;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.info-cards .card h1 .up{
+		font-size: 12px;
+	}
+	.info-cards .card p {
+		font-size: 10px;
 	}
 }
