@@ -1015,8 +1015,8 @@ footer h1 {
 		bottom : 7%;
 	}
 
-	.hero-info.hero-info-title {
-		margin-top: 15px;
+	.hero-info .hero-info-title {
+		margin-bottom: -50px;
 	}
 
 	.scroll-down {
@@ -1103,7 +1103,7 @@ footer h1 {
 	}
 
 	.slider {
-		margin-top: 30px;
+		margin-top: 40px;
 		bottom: 0;
 	}
 
